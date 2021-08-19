@@ -1,11 +1,22 @@
-/*
-Penempatan External CSS
-*/
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
+h1 {
+    font-family: Arial, Helvetica, sans-serif; /* Tipe font */
+    font-size: 50px; /* Ukuran font: px, %, em */
+    font-weight: bold; /* Ketebalan font */
 }
 
-body {
-    background-color: lightblue;
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-style: italic; /* Style font: italic, oblique, dll */
+}
+
+h3 {
+    font: bold italic normal 18px/20px arial, helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 30px; /* Spacing */
 }
