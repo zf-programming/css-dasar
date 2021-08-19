@@ -1,0 +1,11 @@
+/*
+Penempatan External CSS
+*/
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+body {
+    background-color: lightblue;
+}
