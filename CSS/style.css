@@ -35,3 +35,12 @@ p {
 a {
     text-decoration: none; /* Garis pada text*/
 }
+
+body {
+    /*
+    background-color: lightblue;
+    background-image: url(../img/Back2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center; /* harus no-repeat */
+    background: lightblue url(../img/Back2.jpg) no-repeat top center; /* Background shorthand */
+}
