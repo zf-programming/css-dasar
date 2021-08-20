@@ -1,0 +1,62 @@
+a {
+    text-decoration: none;
+}
+
+h1 a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+/* Pseudo class yang berhubungan dengan link */
+a.halo:link { /* untuk default link */
+    color: blue;
+}
+
+a.halo:hover { /* untuk link ketika dihover cursor mouse */
+    color: red;
+}
+
+a.halo:active { /* link ketika di klik */
+    color: green;
+}
+
+a.halo:visited { /* link ketika sudah dikunjungi */
+    color: yellow;
+}
+
+/* Pseudo class yang berhubungan dengan posisi elemen */
+/* child */
+li:first-child a {
+    color: red;
+}
+
+li:first-child a:hover { /* hover */
+    color: green;
+}
+
+li:last-child a {
+    color: green;
+}
+
+/*  5 = anak ke 5
+    2n = kelipatan 2
+    2n-1 = kelipatan 2 mulai dari 1
+    even = genap
+    odd = ganjil
+*/
+li:nth-child(5) a { /* ke-5 */
+    color: pink;
+}
+
+li:nth-child(2n) a {
+    color: brown;
+}
+
+/* elemen ke- */
+p:first-of-type { /* pertama */
+    color: green;
+}
+
+p:last-of-type {
+    color: lightcoral;
+}
